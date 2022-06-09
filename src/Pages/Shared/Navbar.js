@@ -5,8 +5,8 @@ const Navbar = () => {
 
       const menuItems = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/myprojects'>My Projects</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><a href='#projects'>My Projects</a></li>
+        <li><a href='#contact'>Contact</a></li>
         
       </>
 

@@ -12,8 +12,7 @@ function App() {
       <Navbar></Navbar>
     <Routes>
         <Route path='/' element= {<HomePage></HomePage>}></Route>
-        <Route path='/myprojects' element= {<MyProjects></MyProjects>}></Route>
-        <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/home' element= {<HomePage></HomePage>}></Route>
         <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
     </Routes>
     </div>
