@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import favicon from '../../assets/favicon.ico';
 
@@ -6,8 +7,8 @@ const Navbar = () => {
 
       const menuItems = <>
         <li><Link to='/'>Home</Link></li>
-        <li><a href='/home/#projects'>My Projects</a></li>
-        <li><a href='/home/#contact'>Contact</a></li>
+    <li><Nav.Link href="/home#projects">Projects</Nav.Link></li>
+        <li><Link to='/contact'>Contact</Link></li>
         <li><Link to='/blogs'>Blogs</Link></li>
         <li><Link to='/about'>About Me</Link></li>
         
@@ -24,7 +25,7 @@ const Navbar = () => {
           {menuItems}
         </ul>
       </div>
-      <a className="btn btn-ghost normal-case text-xl">
+      <a className="cursor-not-allowed btn btn-ghost normal-case text-xl">
         <img className='w-14' src={favicon} alt="" />
         Ashrafur Rahman</a>
     </div>

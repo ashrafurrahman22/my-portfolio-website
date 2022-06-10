@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div id='contact'>
-          <div className="hero my-5 bg-base-200 p-8 rounded-lg">
+        <div id='contact' className='min-h-screeen'>
+          <div className="hero  bg-base-200 p-8 rounded-lg">
   <div className="hero-content flex-col lg:flex-row">
     <div className="text-center lg:w-2/6 lg:mx-16 lg:text-left">
       <h1 className="text-5xl font-bold">Let's Talk</h1>
