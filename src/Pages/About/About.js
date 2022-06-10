@@ -10,6 +10,7 @@ import education from '../../assets/education.png';
 const About = () => {
     return (
         <div className='min-h-screen'>
+            <div>
             <div className="hero bg-base-200 rounded-lg">
         <div className="hero-content p-12 gap-x-20 flex-col lg:flex-row-reverse">
             <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
@@ -46,22 +47,23 @@ expand my learning and build upon my developer skills.</p>
 
                  <div className="flex items-center mb-3 gap-2">
                  <img className='w-10' src={github} alt="" />
-                 <a href="https://github.com/ashrafurrahman22">
+                 <a target='blank' href="https://github.com/ashrafurrahman22">
                      <p className='text-blue-600 text-xl'>github</p>
                  </a>
                  </div>
 
                  <div className="flex items-center mb-3 gap-2">
                  <img className='w-10 rounded-xl' src={linkedin} alt="" />
-                 <a href="https://www.linkedin.com/in/ashrafur-rahman-503694218/">
+                 <a target='blank' href="https://www.linkedin.com/in/ashrafur-rahman-503694218/">
                  <p className='text-blue-600 text-xl'>Linkedin</p>
                  </a>
                  </div>
-
-
             </div>
         </div>
+            
+        
     </div>
+        </div>
         </div>
     );
 };

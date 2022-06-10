@@ -8,6 +8,9 @@ import PageNotFound from './Pages/PageNotFound';
 import 'react-simple-typewriter/dist/index';
 import Blogs from './Pages/Blogs/Blogs';
 import About from './Pages/About/About';
+import Techland from './Pages/HomePage/Websites/Techland';
+import HaramainPerfumes from './Pages/HomePage/Websites/HaramainPerfumes';
+import Wild from './Pages/HomePage/Websites/Wild';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
     <Routes>
         <Route path='/' element= {<HomePage></HomePage>}></Route>
         <Route path='/home' element= {<HomePage></HomePage>}></Route>
+        <Route path='/techland' element={<Techland></Techland>}></Route>
+        <Route path='/al-haramain-perfumes' element={<HaramainPerfumes></HaramainPerfumes>}></Route>
+        <Route path='/wild-animals' element={<Wild></Wild>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>} />
         <Route path='/about' element={<About></About>} />
