@@ -1,8 +1,9 @@
 import React from "react";
 
+
 import design2 from '../assets/design2.jpg';
 import design1 from '../assets/design1.jpg';
-import design3 from '../assets/design2.jpg';
+import design3 from '../assets/design3.jpg';
 
 
 

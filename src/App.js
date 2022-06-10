@@ -5,6 +5,9 @@ import HomePage from './Pages/HomePage/HomePage';
 import MyProjects from './Pages/MyProjects';
 import Navbar from './Pages/Shared/Navbar';
 import PageNotFound from './Pages/PageNotFound';
+import 'react-simple-typewriter/dist/index';
+import Blogs from './Pages/Blogs/Blogs';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
     <Routes>
         <Route path='/' element= {<HomePage></HomePage>}></Route>
         <Route path='/home' element= {<HomePage></HomePage>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>} />
+        <Route path='/about' element={<About></About>} />
         <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
     </Routes>
     </div>

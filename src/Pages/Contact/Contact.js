@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Description</span>
+            <span className="label-text">Message</span>
           </label>
           <textarea name="description" className='border' placeholder='Write Here...'  id="" cols="20" rows="5"></textarea>
           
