@@ -10,7 +10,8 @@ import { Link } from "react-router-dom";
 
 const MyProjects = () => {
   return (
-    <div id="projects" className="mb-5">
+    <div className="min-h-screen">
+      <div id="projects" className="mb-5">
         <h2 className="my-6 text-3xl font-bold text-center">My Projcets</h2>
         <div className="grid mb-5 lg:grid-cols-3 sm:grid-cols-1 gap-7">
         
@@ -43,15 +44,6 @@ const MyProjects = () => {
             <p>A Full Stack Inventory Management Web Application</p>
             <div class="card-actions justify-end">
             <Link className="w-full" to='/al-haramain-perfumes'><button class="btn w-full btn-primary">Details</button></Link>
-            {/* <a className="w-full" target='blank' href="https://al-haramain-perfumes-5bad9.web.app/">
-              <button class="btn w-full btn-primary">Live Link</button>
-              </a>
-              <a className="w-full" target='blank' href="https://github.com/ashrafurrahman22/al-haramain-website">
-              <button class="btn btn-primary w-full">Client-Side-Repo-Link</button>
-              </a>
-              <a className="w-full" target='blank' href="https://www.google.com/url?sa=D&q=https://github.com/ashrafurrahman22/al-haramain-website-server&ust=1654877640000000&usg=AOvVaw3okwAEfkxLo38RCvkWRqEH&hl=en-GB">
-              <button class="btn btn-primary w-full">Server-Side-Repo-Link</button>
-              </a> */}
             </div>
           </div>
         </div>
@@ -68,17 +60,11 @@ const MyProjects = () => {
             <p>A Front-End wild photographers Website.</p>
             <div class="card-actions justify-end">
             <Link className="w-full" to='/wild-animals'><button class="btn w-full btn-primary">Details</button></Link>
-              {/* <a className="w-full" target='blank' href="https://wild-movements.web.app/">
-              <button class="btn w-full btn-primary">Live Link</button>
-              </a>
-              <a className="w-full" target='blank' href="https://github.com/ashrafurrahman22/wild-movements-website">
-
-              <button class="btn w-full  btn-primary">Client-Side-Repo-Link</button>
-              </a> */}
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
