@@ -19,6 +19,7 @@ function App() {
     <Routes>
         <Route path='/' element= {<HomePage></HomePage>}></Route>
         <Route path='/home' element= {<HomePage></HomePage>}></Route>
+        <Route path='/projects' element={<MyProjects></MyProjects>}></Route>
         <Route path='/techland' element={<Techland></Techland>}></Route>
         <Route path='/al-haramain-perfumes' element={<HaramainPerfumes></HaramainPerfumes>}></Route>
         <Route path='/wild-animals' element={<Wild></Wild>}></Route>
