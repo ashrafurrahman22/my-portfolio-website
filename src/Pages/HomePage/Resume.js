@@ -6,8 +6,8 @@ import './Resume.css';
 const Banner = () => {
 
     return (
-        <div className="hero bg-base-200 rounded-lg my-8">
-        <div className="hero-content my-8 gap-x-20 flex-col lg:flex-row-reverse">
+        <div className="lg:hero bg-base-200 rounded-lg my-8">
+        <div className="lg:hero-content my-8 gap-x-20 flex-col lg:flex-row-reverse">
             <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
                 <h1 className="text-5xl font-bold">Ashrafur Rahman</h1>
