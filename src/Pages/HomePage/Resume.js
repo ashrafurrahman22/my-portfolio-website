@@ -6,13 +6,13 @@ import './Resume.css';
 const Banner = () => {
 
     return (
-        <div className="lg:hero bg-base-200 rounded-lg my-8">
+        <div className="lg:hero lg:bg-base-200 w-full rounded-lg my-8">
         <div className="lg:hero-content my-8 gap-x-20 flex-col lg:flex-row-reverse">
             <img src={pic} className="max-w-sm rounded-lg shadow-2xl mx-auto" />
             <div>
-                <h1 className="lg:text-5xl text-3xl font-bold">Ashrafur Rahman</h1>
+                <h1 className="lg:text-5xl lg:text-left text-center text-3xl font-bold">Ashrafur Rahman</h1>
                 <h3 id='typewriter'
-                 className="py-6 lg:text-3xl break-words text-xl font-semibold">
+                 className="py-6 lg:text-3xl text-center break-words text-sm font-semibold">
                      Junior Front-End Web Developer
                  </h3>
 
