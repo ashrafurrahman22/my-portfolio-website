@@ -3,13 +3,13 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className='min-h-screeen'>
-          <div className="hero  bg-base-200 p-8 rounded-lg">
-  <div className="hero-content flex-col lg:flex-row">
-    <div className="text-center lg:w-2/6 lg:mx-16 lg:text-left">
-      <h1 className="text-5xl font-bold">Let's Talk</h1>
-      <p className="py-6 text-justify">My door is always open for a good cup of coffee.</p>
+          <div className="lg:hero bg-base-200 p-8 rounded-lg">
+  <div className="hero-content flex-col lg:flex-row ">
+    <div className="text-center sm:2/6 lg:w-2/6 lg:mx-16 lg:text-left">
+      <h1 className="lg:text-5xl font-bold">Let's Talk</h1>
+      <p className="py-6 font-semibold  lg:text-justify">My door is always open for a good cup of coffee.</p>
     </div>
-    <div className="card flex-shrink-0 lg:w-full max-w-sm shadow-2xl bg-base-100">
+    <div className="card sm:mx-auto lg:w-full lg:max-w-sm lg:shadow-2xl bg-base-100">
       <div className="card-body">
         <div className="form-control">
           <label className="label">

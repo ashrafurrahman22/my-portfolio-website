@@ -11,11 +11,10 @@ import { Link } from "react-router-dom";
 const MyProjects = () => {
   return (
     <div className="min-h-screen">
-      <div id="projects" className="mb-5">
-        <h2 className="my-6 text-3xl font-bold text-center">My Projcets</h2>
-        <div className="grid mb-5 lg:grid-cols-3 sm:grid-cols-1 gap-7">
+      <div>
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-7">
         
-        <div class="card bg-base-100 shadow-xl">
+        <div class="card bg-base-100 shadow-xl hover:-translate-y-1 hover:scale-110 hover:card duration-700">
           <figure>
             <img
               src={design2}
@@ -32,7 +31,7 @@ const MyProjects = () => {
           </div>
         </div>
   
-        <div class="card bg-base-100 shadow-xl">
+        <div class="card bg-base-100 shadow-xl hover:-translate-y-1 hover:scale-110 hover:card duration-700">
           <figure>
             <img
               src={design3}
@@ -48,7 +47,7 @@ const MyProjects = () => {
           </div>
         </div>
   
-        <div class="card bg-base-100 shadow-xl">
+        <div class="card bg-base-100 shadow-xl hover:-translate-y-1 hover:scale-110 hover:card duration-700">
           <figure>
             <img
               src={design1}
