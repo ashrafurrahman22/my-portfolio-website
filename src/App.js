@@ -11,6 +11,8 @@ import About from './Pages/About/About';
 import Techland from './Pages/HomePage/Websites/Techland';
 import HaramainPerfumes from './Pages/HomePage/Websites/HaramainPerfumes';
 import Wild from './Pages/HomePage/Websites/Wild';
+import { ToastContainer } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
         <Route path='/about' element={<About></About>} />
         <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
     </Routes>
+    <ToastContainer />
     </div>
   );
 }

@@ -1,6 +1,29 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+      emailjs.sendForm('service_6rfnvpd', 'template_f9pkxba', form.current, 'Rqmrny0TQkF3CH8I7')
+      .then((result) => {
+          console.log(result.text);
+          toast.success('Message Sent')
+          e.target.reset();
+      }, (error) => {
+          console.log(error.text);
+          toast.error('Failed to sent the message')
+      });
+
+    }
+
+
+
     return (
         <div className='min-h-screeen'>
           <div className="lg:hero bg-base-200 p-8 rounded-lg">
@@ -12,27 +35,22 @@ const Contact = () => {
     <div className="card sm:mx-auto lg:w-full lg:max-w-sm lg:shadow-2xl bg-base-100">
       <div className="card-body">
         <div className="form-control">
-          <label className="label">
+         <form ref={form} onSubmit={sendEmail}>
+         <label className="label">
+            <span className="label-text">Your Name</span>
+          </label>
+          <input type="text" name="user_name" placeholder="Your Name" className="input input-bordered w-full" required />
+         <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="email" placeholder="Your Email" className="input input-bordered" required />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Subject</span>
-          </label>
-          <input type="text" placeholder="Subject" className="input input-bordered" />
-          
-        </div>
-        <div className="form-control">
+          <input type="email" name="user_email" placeholder="Your Email" className="input input-bordered w-full" required />
+         
           <label className="label">
             <span className="label-text">Message</span>
           </label>
-          <textarea name="description" className='border' placeholder='Write Here...'  id="" cols="20" rows="5"></textarea>
-          
-        </div>
-        <div className="form-control mt-6">
-          <button className="btn btn-primary">Submit</button>
+          <textarea required name="message" className='border w-full' placeholder='Write Here...'  id="" cols="20" rows="5"></textarea>
+          <input className='btn btn-primary block w-full' type="submit" value="Submit" />
+         </form>
         </div>
       </div>
     </div>
