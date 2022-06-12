@@ -33,7 +33,7 @@ const Techland = () => {
 
         <div className='min-h-screen'>
           <div className='my-5 bg-base-200 rounded-xl p-5'>
-          <div className='flex justify-center gap-20'>
+          <div className='lg:flex justify-center gap-20'>
                <div>
 
              <h2 className="mt-5 mb-3 text-3xl font-semibold">Features</h2>
