@@ -16,7 +16,7 @@ const Banner = () => {
                      Junior Front-End Web Developer
                  </h3>
 
-                <a target='blank' href="https://drive.google.com/file/d/12gLiv0f-kWlXXBZVr8xJ0SUKF2qOuKfP/view?usp=sharing">
+                <a target='blank' href="https://drive.google.com/file/d/1EL4KrMT4y1rCeiJLzHOk3PNBq9RWW2Cg/view?usp=sharing">
                 <button  class="btn btn-active btn-secondary hover:-translate-y-1 hover:scale-110 hover:btn-secondary duration-500 ">Download Resume</button>
                 </a>
 
