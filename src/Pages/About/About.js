@@ -12,12 +12,12 @@ const About = () => {
     return (
         <div className='min-h-screen'>
             <div>
-            <div className="lg:hero bg-base-200 rounded-lg">
-        <div className="lg:hero-content p-12 gap-x-20 flex-col lg:flex-row-reverse">
+            <div className="lg:hero lg:p-12 p-5 bg-base-200 rounded-lg">
+        <div className="lg:hero-content gap-x-20 flex-col lg:flex-row-reverse">
             <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
-                <h1 className="text-5xl font-bold">Ashrafur Rahman</h1>
-                <h3 className="py-6 text-3xl font-semibold">
+                <h1 className="lg:text-5xl text-2xl font-bold">Ashrafur Rahman</h1>
+                <h3 className="py-6 lg:text-3xl text-xl font-semibold">
                      Jr. Front-End Web Developer
                  </h3>
                  <p className='text-justify mb-5'>Hard-working web developer with a flair for creating elegant solutions in the least
