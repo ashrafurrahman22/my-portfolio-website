@@ -38,22 +38,22 @@ const HaramainPerfumes = () => {
 
          <h2 className="mt-5 mb-3 text-3xl font-semibold">Features</h2>
            <ol className='list-disc ml-5 text-xl'>
-            <li>Product Stock Update or delete System</li>
-            <li>Categorization of Products in stocks</li>
-            <li>Firebase Authentication</li>
-            <li>Inventory/Product History</li>
-            <li>Add new Product System</li>
+            <li>Storing perfumeries</li>
+            <li>Products Stocks and Delivery Update System</li>
+            <li>New item add system</li>
+            <li>Individual added item list</li>
+            <li>Login Authentication with firebase</li>
         </ol>
         
            </div>
            <div>
            <h2 className="mt-5 mb-3 text-3xl font-semibold">Technology</h2>
         <ol className='list-disc ml-5 text-xl'>
+            <li>Bootstrap</li>
             <li>React</li>
             <li>Express.js</li>
             <li>MongoDB</li>
             <li>Firebase</li>
-            <li>Bootstrap</li>
             </ol>
            </div>
 

@@ -39,21 +39,21 @@ const Techland = () => {
              <h2 className="mt-5 mb-3 text-3xl font-semibold">Features</h2>
                <ol className='list-disc ml-5 text-xl'>
                 <li>Product purchase or Cancel System</li>
+                <li>Updated Reviews</li>
                 <li>Business Summary</li>
-                <li>Firebase Authentication</li>
-                <li>A Dashboard with profile</li>
-                <li>Review Section</li>
+                <li>Dashboard</li>
+                <li>Login Authentication with firebase</li>
             </ol>
             
                </div>
                <div>
                <h2 className="mt-5 mb-3 text-3xl font-semibold">Technology</h2>
             <ol className='list-disc ml-5 text-xl'>
+                <li>Tailwind Css(daisyUI)</li>
                 <li>React</li>
                 <li>Express.js</li>
                 <li>MongoDB</li>
                 <li>Firebase</li>
-                <li>Tailwind Css</li>
                 </ol>
                </div>
 

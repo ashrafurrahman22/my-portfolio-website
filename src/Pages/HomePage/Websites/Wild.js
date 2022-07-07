@@ -38,20 +38,20 @@ const Wild = () => {
              <h2 className="mt-5 mb-3 text-3xl font-semibold">Features</h2>
                <ol className='list-disc ml-5 text-xl'>
                 <li>Wild-life-Photos with Details</li>
-                <li>Service Booking</li>
+                <li>Wild Photographer's different types of Services</li>
+                <li>Service Booking with form</li>
+                <li>About Section</li>
                 <li>Firebase Authentication</li>
-                <li>Form for Service Booking</li>
-                <li>Acbout Section</li>
             </ol>
             
                </div>
                <div>
                <h2 className="mt-5 mb-3 text-3xl font-semibold">Technology</h2>
             <ol className='list-disc ml-5 text-xl'>
+                <li>JSX</li>
                 <li>React</li>
                 <li>React-Router-Dom</li>
                 <li>React-BootStrap</li>
-                <li>API</li>
                 <li>Firebase</li>
                 </ol>
                </div>
