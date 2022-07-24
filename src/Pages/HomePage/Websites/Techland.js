@@ -31,9 +31,10 @@ const Techland = () => {
   </div>
 </div>
 
-        <div className='min-h-screen'>
+        <div style={{fontFamily:"Aleo"}} className='min-h-screen'>
           <div className='my-5 bg-base-200 rounded-xl p-5'>
           <div className='lg:flex justify-center gap-20'>
+
                <div>
 
              <h2 className="mt-5 mb-3 text-3xl font-semibold">Features</h2>
@@ -59,13 +60,13 @@ const Techland = () => {
 
                <div className='flex flex-col gap-10 py-5'>
                <a href="https://techlandbd-f6a97.firebaseapp.com/" target='blank' className="w-full">
-              <button class="btn w-full btn-primary">Live Link</button>
+              <button class="btn w-full font-medium btn-primary">Live Link</button>
               </a>
               <a href="https://github.com/ashrafurrahman22/techland-website" target='blank' className="w-full">
-              <button class="btn w-full btn-primary">client-side-repo-Link</button>
+              <button class="btn w-full btn-primary font-medium">client-side-repo-Link</button>
               </a>
               <a href="https://github.com/ashrafurrahman22/techland-website-server" target='blank' className="w-full">
-              <button class="btn w-full btn-primary">Server-side-repo-Link</button>
+              <button  class="btn w-full btn-primary font-medium">Server-side-repo-Link</button>
               </a>
                </div>
            </div>

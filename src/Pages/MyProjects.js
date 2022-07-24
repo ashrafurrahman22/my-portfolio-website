@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const MyProjects = () => {
   return (
-    <div className="min-h-screen">
+    <div style={{fontFamily:"Aleo"}} className="min-h-screen p-8">
       <div>
         <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-7">
         

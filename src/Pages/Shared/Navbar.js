@@ -15,7 +15,7 @@ const Navbar = () => {
       </>
 
     return (
-    <div className="navbar bg-info-100">
+    <div style={{fontFamily:"Raleway", letterSpacing:"2px"}} className="navbar bg-info-100">
     <div className="navbar-start">
       <div className="dropdown">
         <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -25,9 +25,12 @@ const Navbar = () => {
           {menuItems}
         </ul>
       </div>
-      <a className="cursor-not-allowed btn btn-ghost normal-case text-xl">
+      <Link to='/' className="cursor-pointer btn btn-ghost normal-case text-xl">
+        <div style={{fontFamily:"aleos", letterSpacing:"1px"}} className='flex items-center font-medium'>
         <img className='w-14' src={favicon} alt="" />
-        Ashrafur Rahman</a>
+        <h3 className='font-semiBold'>Ashrafur Rahman</h3>
+        </div>
+        </Link>
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal p-0">

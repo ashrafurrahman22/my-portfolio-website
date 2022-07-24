@@ -7,7 +7,7 @@ import Skills from './Skills';
 
 const HomePage = () => {
     return (
-        <div style={{backgroundColor: 'gainsboro mb-4'}}>
+        <div style={{backgroundColor: 'gainsboro', fontFamily:"Aleo"}}>
             <Resume></Resume>
             <div className='card w-64 bg-base-100 shadow-xl mx-auto mb-5'>
                 <div className='card-body bg-primary'>

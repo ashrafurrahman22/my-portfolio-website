@@ -39,14 +39,14 @@ const Skills = () => {
 
                 <div className="flex justify-center items-center">
                 <img src={styles} className='lg:w-12 w-5 ml-1' alt="" />
-                <progress class="progress progress-primary w-56" value="90" max="100"></progress>
-                <p className='ml-2 font-semibold'>90%</p>
+                <progress class="progress progress-primary w-56" value="85" max="100"></progress>
+                <p className='ml-2 font-semibold'>85%</p>
                 </div>
                 
                 <div className="flex justify-center items-center">
                 <img src={bootstrap} className='lg:w-14 w-7 ml-1' alt="" />
-                <progress class="progress progress-primary w-56" value="95" max="100"></progress>
-                <p className='ml-2 font-semibold'>95%</p>
+                <progress class="progress progress-primary w-56" value="85" max="100"></progress>
+                <p className='ml-2 font-semibold'>85%</p>
                 </div>
 
                 <div className="flex justify-center items-center">
@@ -88,14 +88,14 @@ const Skills = () => {
                <div className="lg:flex flex-col justify-center items-center">
                <div className="flex justify-center items-center">
                 <img src={node} className='lg:w-10 w-6 mr-1' alt="" />
-                <progress class="progress progress-error ms-2 w-56" value="35" max="100"></progress>
-                <p className='ml-2 font-semibold'>35%</p>
+                <progress class="progress progress-error ms-2 w-56" value="56" max="100"></progress>
+                <p className='ml-2 font-semibold'>56%</p>
                 </div>
 
                 <div className="flex justify-center my-2 items-center">
                 <img src={express} className='lg:w-12 w-6 mr-1' alt="" />
-                <progress class="progress w-56" value="40" max="100"></progress>
-                <p className='ml-2 font-semibold'>40%</p>
+                <progress class="progress w-56" value="50" max="100"></progress>
+                <p className='ml-2 font-semibold'>50%</p>
                 </div>
                 
                 <div className="flex justify-center my-2 items-center">
@@ -125,8 +125,8 @@ const Skills = () => {
                <div className="lg:flex flex-col justify-center items-center">
                <div className="flex justify-center items-center">
                 <img src={firebase} className='lg:w-9 w-5 mr-1' alt="" />
-                <progress class="progress progress-warning w-56" value="80" max="100"></progress>
-                <p className='ml-2 font-semibold'>80%</p>
+                <progress class="progress progress-warning w-56" value="70" max="100"></progress>
+                <p className='ml-2 font-semibold'>70%</p>
                 </div>
 
                 <div className="flex my-2 justify-center items-center">

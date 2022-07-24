@@ -10,7 +10,7 @@ import facebook from '../../assets/Facebook-logo.png';
 
 const About = () => {
     return (
-        <div className='min-h-screen'>
+        <div style={{fontFamily:"Aleo"}} className='min-h-screen lg:p-10 p-4'>
             <div>
             <div className="lg:hero lg:p-12 p-5 bg-base-200 rounded-lg">
         <div className="lg:hero-content gap-x-20 flex-col lg:flex-row-reverse">
