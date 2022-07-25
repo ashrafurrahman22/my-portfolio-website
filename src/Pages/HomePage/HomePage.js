@@ -18,7 +18,7 @@ const HomePage = () => {
                 
             <Skills></Skills>
 
-                <div className='card w-64 bg-base-100 shadow-xl mx-auto mb-5'>
+                <div className='card w-64 bg-base-100 shadow-xl mx-auto'>
                     <div className='card-body bg-primary'>
                         <h2 className="text-center text-4xl font-bold text-white tracking-widest">Projects</h2> <hr />
                     </div>
@@ -27,7 +27,7 @@ const HomePage = () => {
 
             <MyProjects></MyProjects>
 
-            <div className='card lg:w-80 bg-base-100 shadow-xl mx-auto lg:mt-0 mt-4 mb-5'>
+            <div className='card lg:w-80 bg-base-100 shadow-xl mx-auto lg:mt-0 mt-4'>
                 <div className='card-body bg-primary'>
                     <h2 className="customSkill text-center text-4xl font-bold text-white tracking-widest ">Contact</h2> <hr />
                 </div>

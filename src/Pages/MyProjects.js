@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const MyProjects = () => {
   return (
-    <div style={{fontFamily:"Aleo"}} className="min-h-screen lg:p-8">
-      <div>
+    <div style={{fontFamily:"Aleo"}} className="min-h-screen lg:p-10">
+      {/* <div> */}
         <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-7">
 
 
@@ -69,7 +69,7 @@ const MyProjects = () => {
   
        
 
-      </div>
+      {/* </div> */}
     </div>
     </div>
   );
