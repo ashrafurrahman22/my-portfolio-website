@@ -6,7 +6,7 @@ import thirdPic from '../../../assets/haramain/singleItem.png';
 
 const HaramainPerfumes = () => {
     return (
-        <div className="min-h-screen">
+        <div style={{fontFamily:"Aleo"}} className="min-h-screen">
         <div class="carousel w-full">
 <div id="slide1" class="carousel-item relative w-full">
 <img src={firstPic} />
@@ -59,13 +59,13 @@ const HaramainPerfumes = () => {
 
            <div className='flex flex-col gap-10 py-5'>
            <a href="https://al-haramain-perfumes-5bad9.web.app/" target='blank' className="w-full">
-          <button class="btn w-full btn-primary">Live Link</button>
+          <button class="btn w-full font-medium btn-primary">Live Link</button>
           </a>
           <a href="https://github.com/ashrafurrahman22/al-haramain-website" target='blank' className="w-full">
-          <button class="btn w-full btn-primary">client-side-repo-Link</button>
+          <button class="btn font-medium w-full btn-primary">client-side-repo-Link</button>
           </a>
           <a href="https://github.com/ashrafurrahman22/al-haramain-website-server" target='blank' className="w-full">
-          <button class="btn w-full btn-primary">Server-side-repo-Link</button>
+          <button class="btn font-medium w-full btn-primary">Server-side-repo-Link</button>
           </a>
            </div>
        </div>

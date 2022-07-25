@@ -25,8 +25,8 @@ const Contact = () => {
 
 
     return (
-        <div style={{fontFamily:"Aleo"}} className='min-h-screeen p-24'>
-          <div className="lg:hero bg-base-200 p-8 rounded-lg">
+        <div style={{fontFamily:"Aleo"}} className='min-h-screeen lg:p-24'>
+          <div className="lg:hero bg-base-200 lg:p-8 p-2 rounded-lg">
   <div className="hero-content flex-col lg:flex-row ">
     <div className="text-center sm:2/6 lg:w-2/6 lg:mx-16 lg:text-left">
       <h1 className="lg:text-5xl font-semibold">Let's Talk</h1>

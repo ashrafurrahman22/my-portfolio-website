@@ -18,7 +18,7 @@ import vscode from '../../assets/skills/Visual_Studio_Code_1.35_icon.svg.png';
 const Skills = () => {
     return (
         <div>
-            <div className='bg-base-200 mb-24 p-10 rounded-2xl grid lg:grid-cols-3 sm:grid-cols-1 gap-6'>
+            <div className='bg-base-200 mb-24 lg:p-10 p-4 rounded-2xl grid lg:grid-cols-3 sm:grid-cols-1 gap-6'>
 
             {/* cards */}
                 <div class="card bg-base-100  shadow-xl">

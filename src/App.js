@@ -16,7 +16,7 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <div className='max-w-7xl mx-auto px-12'>
+    <div className='max-w-7xl mx-auto lg:px-12 p-6'>
       <Navbar></Navbar>
     <Routes>
         <Route path='/' element= {<HomePage></HomePage>}></Route>
@@ -24,7 +24,7 @@ function App() {
         <Route path='/projects' element={<MyProjects></MyProjects>}></Route>
         <Route path='/techland' element={<Techland></Techland>}></Route>
         <Route path='/al-haramain-perfumes' element={<HaramainPerfumes></HaramainPerfumes>}></Route>
-        <Route path='/wild-animals' element={<Wild></Wild>}></Route>
+        <Route path='/introit' element={<Wild></Wild>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>} />
         <Route path='/about' element={<About></About>} />

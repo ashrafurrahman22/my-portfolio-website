@@ -13,13 +13,16 @@ const About = () => {
         <div style={{fontFamily:"Aleo"}} className='min-h-screen lg:p-10 p-4'>
             <div>
             <div className="lg:hero lg:p-12 p-5 bg-base-200 rounded-lg">
-        <div className="lg:hero-content gap-x-20 flex-col lg:flex-row-reverse">
-            <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
+        <div className="lg:hero-content lg:mx-0 mx-auto  lg:gap-x-20 flex-col lg:flex-row-reverse">
+            <img src={pic} className="max-w-sm lg:mx-0 mx-auto rounded-lg shadow-2xl" />
             <div>
+                <div className='lg:text-left text-center'>
                 <h1 className="lg:text-5xl text-2xl font-bold">Ashrafur Rahman</h1>
                 <h3 className="py-6 lg:text-3xl text-xl font-semibold">
                      Jr. Front-End Web Developer
                  </h3>
+                </div>
+
                  <p className='text-justify mb-5'>Hard-working web developer with a flair for creating elegant solutions in the least
 amount of time. With a proven ability to adapt to both self-starting and collaborative
 environments while staying focused on achieving high-quality results under strict

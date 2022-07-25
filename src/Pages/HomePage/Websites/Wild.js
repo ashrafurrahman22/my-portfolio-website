@@ -1,11 +1,11 @@
 import React from 'react';
-import present from '../../../assets/wild/zebras.png';
-import past from '../../../assets/wild/hello.png';
-import future from '../../../assets/wild/Screenshot (81).png';
+import present from '../../../assets/Introit/Introit-design.png';
+import past from '../../../assets/Introit/About.png';
+import future from '../../../assets/Introit/Portfolio-design.png';
 
 const Wild = () => {
     return (
-        <div className="min-h-screen">
+        <div style={{fontFamily:"Aleo"}} className="min-h-screen">
             <div class="carousel w-full">
   <div id="slide1" class="carousel-item relative w-full">
     <img src={present} />
@@ -48,20 +48,21 @@ const Wild = () => {
                <div>
                <h2 className="mt-5 mb-3 text-3xl font-semibold">Technology</h2>
             <ol className='list-disc ml-5 text-xl'>
-                <li>JSX</li>
-                <li>React</li>
-                <li>React-Router-Dom</li>
-                <li>React-BootStrap</li>
-                <li>Firebase</li>
+                <li>Tailwind CSS (DaisyUI)</li>
+                <li>Font-Awesome</li>
+                <li>Responsive-Design</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>React-Router</li>
                 </ol>
                </div>
 
-               <div className='flex flex-col gap-10 py-5'>
-               <a href="https://wild-movements.web.app/" target='blank' className="w-full">
-              <button class="btn w-full btn-primary">Live Link</button>
+               <div className='flex flex-col items-center justify-center gap-10 py-5'>
+               <a href="https://introit.netlify.app/" target='blank' className="w-full">
+              <button class="btn font-medium w-full btn-primary">Live Link</button>
               </a>
-              <a href="https://github.com/ashrafurrahman22/wild-movements-website" target='blank' className="w-full">
-              <button class="btn w-full btn-primary">client-side-repo-Link</button>
+              <a href="https://github.com/ashrafurrahman22/introit-website" target='blank' className="w-full">
+              <button class="btn w-full btn-primary font-medium">client-side-repo-Link</button>
               </a>
                </div>
            </div>
