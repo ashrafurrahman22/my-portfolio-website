@@ -24,47 +24,51 @@ const Skills = () => {
                 <div class="card bg-base-100  shadow-xl">
 
                  <div class="card-body">
-                <h2 class="text-2xl font-bold text-slate-500 text-center">Front-End</h2>
+                <h2 class="text-2xl py-3 font-bold text-slate-500 text-center">Front-End <hr /></h2>
 
                {/* main div */}
               
 
-               <div className="lg:flex flex-col justify-center items-center">
+               <div className="lg:flex flex-col">
 
-               <div className="flex justify-center items-center">
-                <img src={kongkal} className='lg:w-16 w-6' alt="" />
+               <div className='mb-2'>
+               <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Html & Html5</h2>
+                <div className='flex justify-center items-center gap-3'>
                 <progress class="progress progress-error w-56" value="85" max="100"></progress>
                 <p className='ml-2 font-semibold'>85%</p>
                 </div>
+                </div>
 
-                <div className="flex justify-center items-center">
-                <img src={styles} className='lg:w-12 w-5 ml-1' alt="" />
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">CSS & CSS3</h2>
+                <div className='flex justify-center items-center gap-3'>
                 <progress class="progress progress-primary w-56" value="85" max="100"></progress>
                 <p className='ml-2 font-semibold'>85%</p>
+                </div>
                 </div>
                 
-                <div className="flex justify-center items-center">
-                <img src={bootstrap} className='lg:w-14 w-7 ml-1' alt="" />
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Bootstrap & Tailwind</h2>
+                <div className='flex justify-center items-center gap-3'>
                 <progress class="progress progress-primary w-56" value="85" max="100"></progress>
                 <p className='ml-2 font-semibold'>85%</p>
                 </div>
+                </div>
 
-                <div className="flex justify-center items-center">
-                <img src={tailwind} className='lg:w-12 w-6 ml-1' alt="" />
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">JavaScript & ES6</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-warning w-56" value="80" max="100"></progress>
+                <p className='ml-2 font-semibold'>80%</p>
+                </div>
+                </div>
+                
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">React.Js</h2>
+                <div className='flex justify-center items-center gap-3'>
                 <progress class="progress progress-info w-56" value="85" max="100"></progress>
                 <p className='ml-2 font-semibold'>85%</p>
                 </div>
-                
-                <div className="flex justify-center items-center">
-                <img src={javascript} className='lg:w-10 w-6 rounded lg:ml-3 ml-2 mr-1' alt="" />
-                <progress class="progress progress-warning w-56" value="75" max="100"></progress>
-                <p className='ml-2 font-semibold'>75%</p>
-                </div>
-
-                <div className="flex justify-center my-2 items-center">
-                <img src={react} className='lg:w-12 w-6 rounded-xl ml-1 mr-1' alt="" />
-                <progress class="progress progress-info w-56" value="80" max="100"></progress>
-                <p className='ml-2 font-semibold'>80%</p>
                 </div>
 
                </div>
@@ -80,28 +84,44 @@ const Skills = () => {
                 <div class="card bg-base-100 shadow-xl">
 
                  <div class="card-body">
-                <h2 class="text-2xl font-bold text-slate-500 text-center">Back-End</h2>
+                <h2 class="text-2xl py-3 font-bold text-slate-500 text-center">Back-End <hr /> </h2>
 
                {/* main div */}
               
 
                <div className="lg:flex flex-col justify-center items-center">
-               <div className="flex justify-center items-center">
-                <img src={node} className='lg:w-10 w-6 mr-1' alt="" />
-                <progress class="progress progress-error ms-2 w-56" value="56" max="100"></progress>
-                <p className='ml-2 font-semibold'>56%</p>
-                </div>
 
-                <div className="flex justify-center my-2 items-center">
-                <img src={express} className='lg:w-12 w-6 mr-1' alt="" />
-                <progress class="progress w-56" value="50" max="100"></progress>
-                <p className='ml-2 font-semibold'>50%</p>
+               <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Node.Js</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-error w-56" value="60" max="100"></progress>
+                <p className='ml-2 font-semibold'>60%</p>
+                </div>
                 </div>
                 
-                <div className="flex justify-center my-2 items-center">
-                <img src={mongodb} className='lg:w-12 w-6 lg:mr-0 mr-1' alt="" />
-                <progress class="progress progress-error w-56" value="55" max="100"></progress>
-                <p className='ml-2 font-semibold'>55%</p>
+
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Express.Js</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress w-56" value="60" max="100"></progress>
+                <p className='ml-2 font-semibold'>60%</p>
+                </div>
+                </div>
+                
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">MongoDB</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-error w-56" value="65" max="100"></progress>
+                <p className='ml-2 font-semibold'>65%</p>
+                </div>
+                </div>
+
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Firebase</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-warning w-56" value="65" max="100"></progress>
+                <p className='ml-2 font-semibold'>65%</p>
+                </div>
                 </div>
 
                </div>
@@ -117,41 +137,52 @@ const Skills = () => {
                 <div class="card bg-base-100 shadow-xl">
 
                  <div class="card-body">
-                <h2 class="text-2xl font-bold text-slate-500 text-center">Tools</h2>
+                <h2 class="text-2xl py-3 font-bold text-slate-500 text-center">Tools <hr /> </h2>
 
                {/* main div */}
               
 
                <div className="lg:flex flex-col justify-center items-center">
-               <div className="flex justify-center items-center">
-                <img src={firebase} className='lg:w-9 w-5 mr-1' alt="" />
-                <progress class="progress progress-warning w-56" value="70" max="100"></progress>
-                <p className='ml-2 font-semibold'>70%</p>
+
+
+               <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Github & Gitlab</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress w-56" value="85" max="100"></progress>
+                <p className='ml-2 font-semibold'>85%</p>
+                </div>
                 </div>
 
-                <div className="flex my-2 justify-center items-center">
-                <img src={github} className='lg:w-10 w-5 mr-1 mt-1' alt="" />
-                <progress class="progress w-56" value="90" max="100"></progress>
-                <p className='ml-2 font-semibold'>90%</p>
-                </div>
-                
-                <div className="flex my-2  justify-center mt-1 items-center">
-                <img src={heroku} className='lg:w-14 w-6 mr-2 mt-1' alt="" />
-                <progress class="progress progress-primary w-56" value="75" max="100"></progress>
-                <p className='ml-2 font-semibold'>75%</p>
-                </div>
-
-                <div className="flex justify-center mt-1 items-center">
-                <img src={git} className='lg:w-12 w-6 mr-1' alt="" />
-                <progress class="progress progress-info w-56" value="80" max="100"></progress>
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Heroku</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-secondary w-56" value="80" max="100"></progress>
                 <p className='ml-2 font-semibold'>80%</p>
                 </div>
+                </div>
                 
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Netlify</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-accent w-56" value="80" max="100"></progress>
+                <p className='ml-2 font-semibold'>80%</p>
+                </div>
+                </div>
 
-                <div className="flex justify-center my-2 items-center">
-                <img src={vscode} className='lg:w-10 w-6 mr-1' alt="" />
-                <progress class="progress progress-info w-56" value="90" max="100"></progress>
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Figma</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-accent w-56" value="80" max="100"></progress>
+                <p className='ml-2 font-semibold'>80%</p>
+                </div>
+                </div>
+
+                <div className='mb-2'>
+                <h2 style={{letterSpacing:"2px"}} class="text-md  font-semibold text-slate-500 text-left">Vs Code</h2>
+                <div className='flex justify-center items-center gap-3'>
+                <progress class="progress progress-primary w-56" value="80" max="100"></progress>
                 <p className='ml-2 font-semibold'>90%</p>
+                </div>
                 </div>
 
                </div>

@@ -16,8 +16,9 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <div className='max-w-7xl mx-auto lg:px-12 p-6'>
-      <Navbar></Navbar>
+    <div id='main-div'>
+          <div className='max-w-7xl mx-auto lg:px-12 p-6'>
+          <Navbar></Navbar>
     <Routes>
         <Route path='/' element= {<HomePage></HomePage>}></Route>
         <Route path='/home' element= {<HomePage></HomePage>}></Route>
@@ -31,6 +32,7 @@ function App() {
         <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
     </Routes>
     <ToastContainer />
+          </div>
     </div>
   );
 }

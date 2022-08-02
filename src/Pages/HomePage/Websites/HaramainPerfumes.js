@@ -6,8 +6,8 @@ import thirdPic from '../../../assets/haramain/singleItem.png';
 
 const HaramainPerfumes = () => {
     return (
-        <div style={{fontFamily:"Aleo"}} className="min-h-screen">
-        <div class="carousel w-full">
+        <div style={{fontFamily:"Aleo"}} className="min-h-screen mt-8">
+        <div class="carousel rounded-xl w-full">
 <div id="slide1" class="carousel-item relative w-full">
 <img src={firstPic} />
 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

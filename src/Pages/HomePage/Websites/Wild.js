@@ -5,8 +5,8 @@ import future from '../../../assets/Introit/Portfolio-design.png';
 
 const Wild = () => {
     return (
-        <div style={{fontFamily:"Aleo"}} className="min-h-screen">
-            <div class="carousel w-full">
+        <div style={{fontFamily:"Aleo"}} className="min-h-screen mt-8">
+            <div class="carousel rounded-xl w-full">
   <div id="slide1" class="carousel-item relative w-full">
     <img src={present} />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -37,11 +37,11 @@ const Wild = () => {
 
              <h2 className="mt-5 mb-3 text-3xl font-semibold">Features</h2>
                <ol className='list-disc ml-5 text-xl'>
-                <li>Wild-life-Photos with Details</li>
-                <li>Wild Photographer's different types of Services</li>
-                <li>Service Booking with form</li>
-                <li>About Section</li>
-                <li>Firebase Authentication</li>
+                <li>Best UI / UX Design</li>
+                <li>Responsive NavBar</li>
+                <li>Portfolio Design</li>
+                <li>Customer Review</li>
+                <li>Service, Contact & About Page</li>
             </ol>
             
                </div>

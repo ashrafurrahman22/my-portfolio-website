@@ -1,13 +1,16 @@
 import React from 'react';
-import first from '../../../assets/techland/first.png';
-import second from '../../../assets/techland/second.png';
-import third from '../../../assets/techland/third.png';
+import first from '../../../assets/techland/navbar.png';
+import second from '../../../assets/techland/products.png';
+import third from '../../../assets/techland/Dashboard.png';
+import fourth from '../../../assets/techland/login.png';
+import fifth from '../../../assets/techland/footer.png';
 
 
 const Techland = () => {
     return (
-        <div className="min-h-screen">
-            <div class="carousel w-full">
+        <div className="min-h-screen mt-8">
+            <div class="carousel w-full rounded-xl">
+
   <div id="slide1" class="carousel-item relative w-full">
     <img src={first} />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -15,20 +18,31 @@ const Techland = () => {
       <a href="#slide2" class="btn btn-circle">❯</a>
     </div>
   </div> 
+
   <div id="slide2" class="carousel-item relative w-full">
-    <img src={third} />
+    <img src={second} />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide1" class="btn btn-circle">❮</a> 
       <a href="#slide3" class="btn btn-circle">❯</a>
     </div>
   </div> 
+
   <div id="slide3" class="carousel-item relative w-full">
-    <img src={second} />
+    <img src={third} />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide2" class="btn btn-circle">❮</a> 
       <a href="#slide4" class="btn btn-circle">❯</a>
     </div>
   </div>
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src={fourth} />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+
+
 </div>
 
         <div style={{fontFamily:"Aleo"}} className='min-h-screen'>
@@ -41,7 +55,7 @@ const Techland = () => {
                <ol className='list-disc ml-5 text-xl'>
                 <li>Product purchase or Cancel System</li>
                 <li>Updated Reviews</li>
-                <li>Business Summary</li>
+                <li>All Products</li>
                 <li>Dashboard</li>
                 <li>Login Authentication with firebase</li>
             </ol>
@@ -50,9 +64,9 @@ const Techland = () => {
                <div>
                <h2 className="mt-5 mb-3 text-3xl font-semibold">Technology</h2>
             <ol className='list-disc ml-5 text-xl'>
-                <li>Tailwind Css(daisyUI)</li>
-                <li>React</li>
-                <li>Express.js</li>
+                <li>Tailwind Css (daisyUI)</li>
+                <li>React.js</li>
+                <li>Node.js Express.js</li>
                 <li>MongoDB</li>
                 <li>Firebase</li>
                 </ol>
