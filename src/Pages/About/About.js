@@ -7,6 +7,8 @@ import github from '../../assets/github.jpg';
 import linkedin from '../../assets/linkedin.png';
 import education from '../../assets/education.png';
 import facebook from '../../assets/Facebook-logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faEnvelope, faFaceMehBlank, faGraduationCap, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
@@ -17,9 +19,9 @@ const About = () => {
             <img src={pic} className="max-w-sm lg:mx-0 mx-auto rounded-lg shadow-2xl" />
             <div>
                 <div className='lg:text-left text-center'>
-                <h1 className="lg:text-5xl text-2xl font-bold">Ashrafur Rahman</h1>
-                <h3 className="py-6 lg:text-3xl text-xl font-semibold">
-                     Jr. Front-End Web Developer
+                <h1 className="lg:text-5xl text-2xl font-semibold">Ashrafur Rahman</h1>
+                <h3 className="py-6 lg:text-3xl text-xl font-medium">
+                     Junior Front-End Web Developer
                  </h3>
                 </div>
 
@@ -34,7 +36,8 @@ expand my learning and build upon my developer skills.</p>
                     <div>
                      <p className="text-xl ml-2 text-secondary font-semibold">Education:</p>
                   <div className="lg:flex items-center border rounded-xl mb-3 gap-2">
-                  <img className='w-10' src={education} alt="" />
+                      
+                 <FontAwesomeIcon className='w-10 text-red-700 py-3' icon={faGraduationCap} />
                   <p>B.B.A. (Management) under National University</p>
                   </div>
                   </div>
@@ -42,7 +45,7 @@ expand my learning and build upon my developer skills.</p>
                   <div>
                   <p className="text-xl ml-2 text-secondary font-semibold">Address:</p>
                   <div className="lg:flex  items-center mb-3 gap-2 border rounded-xl">
-                  <img className='w-8' src={address} alt="" />
+                 <FontAwesomeIcon className='w-10 text-red-700 py-3' icon={faLocationDot} />
                   <p>Chittagong, Bangladesh</p>
                   </div>
                   </div>
@@ -50,7 +53,8 @@ expand my learning and build upon my developer skills.</p>
                   <div>
                   <p className="text-xl ml-1 text-secondary font-semibold">Email:</p>
                   <div className="lg:flex border rounded-xl items-center gap-2 mb-3">
-                  <img className='w-8' src={email} alt="" />
+                  
+                 <FontAwesomeIcon className='w-10 text-red-700 py-3' icon={faEnvelope} />
                   <p className='break-words'>ashrafurrahman22@gmail.com</p>
                   </div>
                   </div>
@@ -58,7 +62,9 @@ expand my learning and build upon my developer skills.</p>
                   <div>
                   <p className="text-xl ml-1 text-secondary font-semibold">Phone:</p>
                   <div className="lg:flex border rounded-xl items-center mb-3 gap-2">
-                  <img className='w-7' src={mobile} alt="" />
+                  
+                  
+                 <FontAwesomeIcon className='w-10 text-red-700 py-3' icon={faPhone} />
                   <p>+8801721778884</p>
                   </div>
                   </div>
@@ -66,7 +72,7 @@ expand my learning and build upon my developer skills.</p>
                   <div className="flex justify-center mt-7">
                         <div className='mr-7'>
                         <a target='blank' href="https://github.com/ashrafurrahman22">
-                 <img className='w-10' src={github} alt="" />
+                 <img className='w-9' src={github} alt="" />
                  </a>
                         </div>
 
